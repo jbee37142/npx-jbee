@@ -23,7 +23,7 @@ export const Jbee = () => {
             {"  "}
             GitHub{" "}
           </Color>
-          <Text underline> https://github.com/JaeYeopHan</Text>
+          <Text underline> https://github.com/jbee37142</Text>
         </Text>
         <Text>
           <Color bgWhiteBright black>
@@ -37,7 +37,7 @@ export const Jbee = () => {
             {" "}
             Twitter{" "}
           </Color>
-          <Text underline> https://twitter.com/JbeeLjyhanll</Text>
+          <Text underline> https://twitter.com/jbee37142</Text>
         </Text>
       </Box>
       <Color gray>Out of box, pay it forward 👋</Color>
