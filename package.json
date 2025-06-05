@@ -2,12 +2,11 @@
   "name": "jbee",
   "version": "0.0.2",
   "description": "About Jbee cli",
+  "type": "module",
   "main": "index.js",
-  "bin": {
-    "jbee": "./bin/run"
-  },
+  "bin": "./bin/run",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=20.0.0"
   },
   "files": [
     "/bin",
@@ -26,14 +25,14 @@
   "author": "JaeYeopHan",
   "license": "MIT",
   "dependencies": {
-    "ink": "^2.7.1",
-    "react": "^16.13.1",
-    "typescript": "^3.9.6"
+    "ink": "^6.0.0",
+    "react": "^19.1.0",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@types/react": "^16.9.42",
-    "@typescript-eslint/eslint-plugin": "^3.6.0",
-    "@typescript-eslint/parser": "^3.6.0",
-    "eslint": "^7.4.0"
+    "@types/react": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "eslint": "^9.28.0"
   }
 }

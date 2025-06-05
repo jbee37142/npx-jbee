@@ -1,11 +1,9 @@
 import React from "react";
 import { render } from "ink";
-import { Jbee } from "./jbee";
+import { Jbee } from "./jbee.js";
 
-const cli = {
-  run() {
-    render(React.createElement(Jbee));
-  },
-};
+export function run() {
+  render(React.createElement(Jbee));
+}
 
-export = cli;
+export default { run };
