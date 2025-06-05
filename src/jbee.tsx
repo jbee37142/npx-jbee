@@ -1,46 +1,46 @@
 import React from "react";
-import { Color, Box, Text } from "ink";
+import { Box, Text } from "ink";
 
 export const Jbee = () => {
   return (
     <Box margin={1} padding={2} flexDirection="column">
       <Box marginBottom={1} alignItems="center">
-        <Color cyan>Hello, </Color>
-        <Color cyanBright>I'm </Color>
-        <Color bgBlue white>
-          <Text bold> Jbee </Text>
-        </Color>
+        <Text color="cyan">Hello, </Text>
+        <Text color="cyanBright">I'm </Text>
+        <Text backgroundColor="blue" color="white" bold>
+          {' Jbee '}
+        </Text>
         <Text> 🐝</Text>
       </Box>
       <Box marginBottom={1}>
-        <Color yellow>Front-End Engineer</Color>
-        <Color magenta> or </Color>
-        <Color green>Product Developer</Color>
+        <Text color="yellow">Front-End Engineer</Text>
+        <Text color="magenta"> or </Text>
+        <Text color="green">Product Developer</Text>
       </Box>
       <Box flexDirection="column" marginBottom={1}>
         <Text>
-          <Color bgWhiteBright black>
+          <Text backgroundColor="whiteBright" color="black">
             {"  "}
             GitHub{" "}
-          </Color>
+          </Text>
           <Text underline> https://github.com/jbee37142</Text>
         </Text>
         <Text>
-          <Color bgWhiteBright black>
+          <Text backgroundColor="whiteBright" color="black">
             {"    "}
             Blog{" "}
-          </Color>
+          </Text>
           <Text underline> https://jbee.io</Text>
         </Text>
         <Text>
-          <Color bgWhiteBright black>
+          <Text backgroundColor="whiteBright" color="black">
             {" "}
             Twitter{" "}
-          </Color>
+          </Text>
           <Text underline> https://twitter.com/jbee37142</Text>
         </Text>
       </Box>
-      <Color gray>Out of box, pay it forward 👋</Color>
+      <Text color="gray">Out of box, pay it forward 👋</Text>
     </Box>
   );
 };
