@@ -19,3 +19,12 @@ $ npx jbee
   </sub>
   <small>✌</small>
 </div>
+
+## Development
+
+Install dependencies using [pnpm](https://pnpm.io):
+
+```sh
+pnpm install
+```
+
