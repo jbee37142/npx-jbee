@@ -1,6 +1,6 @@
 {
   "name": "jbee",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "About Jbee cli",
   "type": "module",
   "main": "index.js",
